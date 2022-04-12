@@ -5,7 +5,7 @@ public class ArrayProgram {
         Scanner input = new Scanner(System.in);
         int count;
         String[]  persons = new String[5];
-
+        input.close();
         for (count = 0; count < persons.length; count++)
         {
             System.out.println("Please enter Name");
@@ -18,9 +18,10 @@ public class ArrayProgram {
 
         for (count = 0; count < persons.length; count++) {
             System.out.println("Name is " + persons[count]);
+            
         }
 
-        input.close();
+       
     }
     
 }

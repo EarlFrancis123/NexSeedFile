@@ -6,7 +6,7 @@ class MyfirstJavaProject{
         int count;
         int maximun;
         int increment;
-
+        input.close();
         System.out.println("Please Input a maximun count");
         maximun = input.nextInt();
 

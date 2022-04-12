@@ -6,7 +6,7 @@ public class ArrayProgram2 {
         int count;
         String[]  persons = new String[5];
         int [] age = new int[5];
-
+        input.close();
         for (count = 0; count < persons.length; count++)
         {
             System.out.println("Please enter Name");

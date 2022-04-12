@@ -1,3 +1,7 @@
+import java.util.jar.Attributes.Name;
+
+import BankingSystem.BankingMain;
+
 public class Methods {
     public static void main(String [] args){
         int sum;
@@ -6,7 +10,11 @@ public class Methods {
         sum = returnNumber(1, 5);
         addTwoNumbers(1, 5);
         System.out.println(sum);
+    
+     
     }
+
+
     
         public static void displayName(String name){
             System.out.println("My name is" + name);
