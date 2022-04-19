@@ -1,0 +1,39 @@
+pwede ra ma over load ang methods og constructors
+public person(String fname, String lname, String job){
+    this.fname = fname;
+    this.lname = lname;
+    this.job = job;
+
+
+}
+
+public person(String fname, String lname ){
+    this.fname = fname;
+    this.lname = lname;
+
+
+
+}
+
+
+Over Loading Methods
+
+
+public class Transaction {
+     public int addFunds(int transactionaAmount, int currentFund){
+
+        return currentFund + transactionaAmount;
+    }
+
+public class Transaction {
+     public int addFunds(int transactionaAmount){
+
+        return currentFund ;
+    }
+
+
+
+
+super(firstname,lastname)
+
+passing value to mother class
